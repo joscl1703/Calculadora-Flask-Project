@@ -1,0 +1,51 @@
+body {
+    font-family: "Elms Sans", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    gap: 4em;
+    padding: 0;
+    background-color: rgb(248, 251, 252);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+*::placeholder {
+    font-family: "Elms Sans", sans-serif;
+}
+#logo {
+    max-width: 10em;
+}
+#usuario {
+    display: flex;
+    flex-direction: column;
+}
+#contraseña {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: .2em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap:.1em
+}
+button {
+    margin: .2em;
+    padding: .2em;
+}
+#fondo {
+    object-fit: fill;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}

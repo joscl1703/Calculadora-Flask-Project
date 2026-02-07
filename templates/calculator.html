@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/styles/calculator.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="interface">
+            <div>
+                <button id="regresar">DEL</button>
+                <span id="operation">
+                    {{ resultado }}
+                </span>
+            </div>
+        </div>
+        <div id="buttons">
+            <div id="screen">
+                <div class="row">
+                    <button class="button numbers">7</button>
+                    <button class="button numbers">8</button>
+                    <button class="button numbers">9</button>
+                </div>
+                <div class="row">
+                    <button class="button numbers">4</button>
+                    <button class="button numbers">5</button>
+                    <button class="button numbers">6</button>
+                </div>
+                <div class="row">
+                    <button class="button numbers">1</button>
+                    <button class="button numbers">2</button>
+                    <button class="button numbers">3</button>
+                </div>
+                <div class="row">
+                    <button class="button" id="eliminar">C</button>
+                    <button class="button numbers">0</button>
+                    <button class="button numbers">.</button>
+                </div>
+            </div>
+            <div id="operations">
+                <button class="botones operaciones" id="sumar">+</button>
+                <button class="botones operaciones" id="restar">-</button>
+                <button class="botones operaciones" id="multiplicar">*</button>
+                <button class="botones operaciones" id="dividir">/</button>
+                <button class="botones" id="igual">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="/public/js/calculator.js"></script>
+</body>
+
+</html>
