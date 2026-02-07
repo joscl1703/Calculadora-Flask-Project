@@ -12,7 +12,7 @@ El éxito de este proyecto se basó en la división de roles técnicos, donde ca
 * Endy Espinoza (https://github.com/joscl1703): Responsable de la arquitectura visual (Frontend) y maquetación de componentes. 
 * **Ingeniería de Backend y Lógica:**
     * Gregory Orozco: Desarrollo del núcleo aritmético en Python y gestión de funciones matemáticas.
-    * Yeiderson Sequera (https://github.com/pongf) : Implementación del servidor Flask, manejo de rutas y conectividad de datos.
+    * Yeiderson Sequera (https://github.com/pongf456) : Implementación del servidor Flask, manejo de rutas y conectividad de datos.
     * Lenin Iguaran: Pruebas de integración y manejo de errores.
 
 ## 👤 Mi Contribución Técnica: Experiencia de Usuario (UI/UX)
